@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Daksh Gupta",
+  "github": "DakshGupta47",
+  "lab1_scenario": "A",
+  "lab1_prompt": "You are a Samsung Customer Support Executive handling escalation cases.\n\nDraft a professional reply that resolves the customer's concern.\n\nContext: A customer is making their third complaint about a Galaxy Watch battery issue, and the device is still under warranty.\n\nConstraints: Do not promise a refund. Acknowledge the customer's frustration, remain empathetic, and offer appropriate warranty-based assistance.\n\nTone: Professional, empathetic, courteous, and solution-oriented.\n\nOutput format: A concise customer-support response (approximately 80–120 words) addressing the issue and guiding the customer on the next steps under warranty.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 1,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "Starting with 4,200 units, subtracting 850 and withholding a 6% reserve leaves 3,149; adding 1,150 restocked units results in 4,299 Galaxy Buds available for sale.",
+  "lab2_cot_prompt": "Solve this inventory problem step-by-step:\n1. Subtract \"sends out\" from \"starts\" to find \"remaining stock\".\n2. Calculate the \"holds\" percentage from that remaining stock, then subtract it.\n3. Add the \"restocks\" to get the final available total.\nProblem: Starts at 4200, sends out 850, holds 6% of remaining stock, restocks 1150.",
+  "lab2_cot_output_summary": "Here is a quick summary of the inventory calculation:\nRemaining Stock: Started with 4,200 and subtracted 850 sent out, leaving 3,350.\nAfter Holds: Deducted a 6% hold (201) from the remaining stock, leaving 3,149.\nFinal Restock: Added 1,150 back into the inventory.\nFinal Available Total: 4,299",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "Question: A warehouse starts the day with 4200 Galaxy Buds units. It sends \nout 850 units for delivery, then holds back 6% of the remaining stock for \nquality inspection. Later, it receives a restock of 1150 units. How many \nunits are available for sale by end of day?\nThought 1: I need to find the stock remaining after the units sent out.\nAction 1: Subtract 850 from 4200.\nObservation 1: [result]\nThought 2: I need to calculate 6% of the remaining stock that gets held back.\nAction 2: Compute 6% of the result from Observation 1.\nObservation 2: [result]\nThought 3: I need to find the stock available after holding back that percentage.\nAction 3: Subtract Observation 2 from Observation 1.\nObservation 3: [result]\nThought 4: I need to add the restocked units to get the final available count.\nAction 4: Add 1150 to Observation 3.\nObservation 3: [result]\nFinal Answer: State the total number of units available for sale by end of day.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:55:50.889Z"
+}
