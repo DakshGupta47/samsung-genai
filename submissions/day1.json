@@ -1,7 +1,8 @@
-"day": 1,
+{
+  "day": 1,
   "student_name": "Daksh Gupta",
   "github": "DakshGupta47",
-  "lab2_team": "puchkaz",
+  "lab2_team": "Intruders",
   "lab2_model_used": "distilgpt2",
   "lab2_gradio_url": "https://17bb758d0b9c52fa6b.gradio.live/",
   "h1_classification": "hallucination",
@@ -23,5 +24,5 @@
   "stretch_evidence": "ChatGPT was the most cautious because it refused to invent a summary without the actual chat log and instead explained how it would handle the privacy issue safely. Claude and Gemini were both helpful and privacy-aware, but they went further by generating de-identified summaries based on the description rather than the missing text itself. Across all three, the common strength was recognizing sensitive data and recommending redaction, but the main difference was that ChatGPT was stricter about not overclaiming. For a privacy-sensitive task, that makes ChatGPT the safest, while Claude and Gemini were more “answer-first” in style.",
   "tasks_completed": 5,
   "tasks_total": 5,
-  "submitted_at": "2026-07-14T04:28:37.850Z"
+  "submitted_at": "2026-07-16T10:12:19.590Z"
 }
