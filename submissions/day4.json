@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Daksh Gupta",
+  "github": "DakshGupta47",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "chatbot confidently fabricated a non-existent discount policy, producing inaccurate information that users reasonably trusted."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "the assistant collected and stored sensitive employee and client information without users' knowledge or consent, violating data privacy expectations."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Accountability",
+      "justification": "an AI-generated fake video misled the public by appearing authentic, causing real-world financial consequences before it\nwas exposed."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "AI unfairly disadvantaged applicants from certain women's colleges, resulting in discriminatory hiring outcomes despite gender not being an explicit input."
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "biased moderation pattern went unchecked for weeks because no human monitored or intervened until it was exposed externally."
+    },
+    {
+      "id": "F",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Security",
+      "justification": "voice-cloning technology was exploited to impersonate a trusted executive, enabling a fraudulent financial transaction through social engineering."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Air Canada Chatbot",
+  "stretch_failure_type": "Hallucination",
+  "stretch_principle": "Reliability",
+  "stretch_notes": "Air Canada's customer service chatbot falsely told a passenger that they could claim a bereavement fare refund after purchasing a ticket, even though no such policy existed. The passenger relied on the chatbot's advice, and a Canadian tribunal later ruled that Air Canada was responsible for the chatbot's incorrect information and ordered the airline to compensate the customer. This is a clear case of hallucination because the AI confidently invented a policy, violating the principle of Reliability by providing inaccurate information that users trusted.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:17:57.820Z"
+}
